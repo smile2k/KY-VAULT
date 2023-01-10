@@ -1,1 +1,0 @@
-Panel No. In an Array of many Components, each Component has a representative ID. CompArrayNo represents that ID.

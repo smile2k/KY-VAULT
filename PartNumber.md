@@ -1,1 +1,0 @@
-Component name of pad. (VARCHAR). Name of the Part.
