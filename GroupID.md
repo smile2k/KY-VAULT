@@ -1,0 +1,1 @@
+Index of group. Index to distinguish Group from each other. 
