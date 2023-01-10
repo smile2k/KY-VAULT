@@ -1,0 +1,1 @@
+Pin number of pad included. In a component with many pins, each pin has an ID, that ID is PinNumber.

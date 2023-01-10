@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "84274710be9d8bda",
+    "type": "split",
+    "children": [
+      {
+        "id": "48fc82b6785c48f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e7722e2b0aa0d0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concept/SPI JOB FILE - Normal Job.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e2621ddc89d13f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "38d632e14d4096cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de6ccfa57e2bc5ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "422bab5e4d166ca3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d23c3041100d4a89",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dac20a820cb6b8e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "62d4231a62e4c074",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20a033b43b8937c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Concept/SPI JOB FILE - Normal Job.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2389246e89acfd65",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Concept/SPI JOB FILE - Normal Job.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "486c55815efd89bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "23b3e7c793d262e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Concept/SPI JOB FILE - Normal Job.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "de6ccfa57e2bc5ab",
+  "lastOpenFiles": [
+    "Concept/SPI JOB FILE - Normal Job.md",
+    "Shptype.md",
+    "ID.md",
+    "FovStepCnt.md",
+    "PCBName.md",
+    "ComPackage.md",
+    "PinNumber.md",
+    "CompArrayNo.md",
+    "PartNumber.md",
+    "ShapeID.md"
+  ]
+}

@@ -1,0 +1,1 @@
+Shape of pad Linked with ID in shape table. There is a shape table, where each shape of the Pad has a corresponding ID.
