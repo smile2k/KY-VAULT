@@ -11,28 +11,208 @@
             "id": "7e7722e2b0aa0d0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concept/SPI JOB FILE - Normal Job.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "cbeb008aeeb51d9e",
+            "id": "ccd7bbbb5a8271a4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d3b7719d7f14b581",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sequence Diagram.md",
+                "file": "Data Analysis/SPI/SPI Result DB/Pad Detail DB.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
+            }
+          },
+          {
+            "id": "9360199407d880eb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8c8c591462a9e7f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "084a002668806f9e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccd52752bd4fe489",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a7a1d6e6aab2185",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1959215ae77d26c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Land.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c37973df2cd0949a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Land.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7193a84fbaf0c1bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Land.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ef8666eb552af823",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Exec.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "62fc9ef141ba6a04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Step.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d4db10bde48eb237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Etc1.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d3d3fe27743ec698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Etc2.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ac481ea8b3f26768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/CompArrayNo.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ed917305da359a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/RDegree.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bf7ee3468a63241b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI JOB File/Normal Job/Land/PinNumber.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "50873fafb9904860",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0b5442a12062a1e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -98,7 +278,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sequence Diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +294,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sequence Diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +315,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sequence Diagram.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -152,24 +328,24 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "cbeb008aeeb51d9e",
+  "active": "e0b5442a12062a1e",
   "lastOpenFiles": [
-    "Sequence Diagram.md",
-    "Concept/SPI JOB FILE - Normal Job.md",
-    "Shptype.md",
-    "ID.md",
-    "FovStepCnt.md",
-    "PCBName.md",
-    "ComPackage.md",
-    "PinNumber.md",
-    "CompArrayNo.md",
-    "PartNumber.md"
+    "Data Analysis/SPI/SPI.md",
+    "Data Analysis/SPI/SPI Result DB/SPI Result DB.md",
+    "Diagram/Delegate.md",
+    "Diagram/Sequence Diagram.md",
+    "Diagram/Class/Class.md",
+    "Diagram/Class/Untitled.md",
+    "Diagram/Diagram.md",
+    "Data Analysis/SPI/SPI JOB File/SPI JOB File.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Pasted image 20230112151742.png",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/FOV/FOV.md"
   ]
 }
