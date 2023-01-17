@@ -1,0 +1,198 @@
+{
+  "statusBarOrder": [],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/The Machine Learning Landscape.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/When to use Machine Learning.md"
+    ],
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Online vs Offline",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Instance-based vs Model-based",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Types of Machine Learning.md"
+    ],
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Algorithm",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Main Challenges of Machine Learning.md"
+    ],
+    "/": [
+      "UML",
+      "C Sharp",
+      "WPF",
+      "Repeatability Tool",
+      "YOLO Algorithm",
+      "Moire Algorithm",
+      "MSA",
+      "Diagrams",
+      "Glossary",
+      "Related Link",
+      "Pictures & PDF",
+      "README.md"
+    ],
+    "Definitions": [
+      "Definitions/Label.md",
+      "Definitions/Outlier.md",
+      "Definitions/Sample.md",
+      "Definitions/Feature.md",
+      "Definitions/Test Set.md",
+      "Definitions/Attribute.md",
+      "Definitions/Definitions.md",
+      "Definitions/Overfitting.md",
+      "Definitions/Noisy Data.md",
+      "Definitions/Regression.md",
+      "Definitions/Parameters.md",
+      "Definitions/Training Set.md",
+      "Definitions/Underfitting.md",
+      "Definitions/Cost  Function.md",
+      "Definitions/Sampling Bias.md",
+      "Definitions/Regularization.md",
+      "Definitions/Utility Function.md",
+      "Definitions/Sampling Noise.md",
+      "Definitions/Development Set.md",
+      "Definitions/Feature Selection.md",
+      "Definitions/Hyperparameters.md",
+      "Definitions/Machine Learning.md",
+      "Definitions/Holdout Validation.md",
+      "Definitions/Feature Extraction.md",
+      "Definitions/Generalization Error.md",
+      "Definitions/Feature Engineering.md"
+    ],
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data/Bad Data.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data/Poor-Quality Data.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data/Irrelevant Features.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data/Insufficient Quantity of Training Data.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Data/Nonrepresentative Training Data.md"
+    ],
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Algorithm": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Algorithm/Untitled.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Main Challenges of Machine Learning/Bad Algorithm/Overfitting the Training Data.md"
+    ],
+    "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision": [
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision/Based on level of human supervision.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision/Reinforcement Learning.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision/Semisupervised Learning.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision/Supervised Learning.md",
+      "The Fundamentals of Machine Learning/The Machine Learning Landscape/Types of Machine Learning/Based on level of human supervision/Unsupervised Learning.md"
+    ],
+    "References": [
+      "References/SIFT.md",
+      "References/Interest Points.md",
+      "References/Homogeneous Coordinates.md",
+      "References/Edge Detection using Laplacian.md",
+      "References/Introduction to SIFT (Scale-Invariant Feature Transform).md",
+      "References/References.md",
+      "References/Distinctive Image Features from Scale-Invariant Keypoints.md",
+      "References/Untitled.md",
+      "References/Untitled 1.md"
+    ],
+    "UML": [
+      "UML/UML.md",
+      "UML/UML - Definition.md",
+      "UML/UML Diagram Type",
+      "UML/Home.md"
+    ],
+    "UML/UML Diagram Type/Structural Diagrams": [
+      "UML/UML Diagram Type/Structural Diagrams/Composite Structure Diagram.md",
+      "UML/UML Diagram Type/Structural Diagrams/Deployment Diagram.md",
+      "UML/UML Diagram Type/Structural Diagrams/Package Diagram.md",
+      "UML/UML Diagram Type/Structural Diagrams/Profile Diagram.md",
+      "UML/UML Diagram Type/Structural Diagrams/Structural Diagrams.md"
+    ],
+    "UML/UML Diagram Type": [
+      "UML/UML Diagram Type/Structural Diagrams",
+      "UML/UML Diagram Type/Behaviorl Diagrams",
+      "UML/UML Diagram Type/UML Diagram Type.md"
+    ],
+    "UML/UML Diagram Type/Behaviorl Diagrams": [
+      "UML/UML Diagram Type/Behaviorl Diagrams/Activity Diagram.md",
+      "UML/UML Diagram Type/Behaviorl Diagrams/Behaviorl Diagrams.md",
+      "UML/UML Diagram Type/Behaviorl Diagrams/State Machine Diagram.md",
+      "UML/UML Diagram Type/Behaviorl Diagrams/Use Case Diagram.md",
+      "UML/UML Diagram Type/Behaviorl Diagrams/Interaction Diagrams",
+      "UML/UML Diagram Type/Behaviorl Diagrams/Sequence Diagram.md"
+    ],
+    "C Sharp": [
+      "C Sharp/C Sharp - Defenition.md",
+      "C Sharp/Read() vs ReadLine().md",
+      "C Sharp/Convert.md",
+      "C Sharp/Foreach Loop.md",
+      "C Sharp/String Interpolation.md",
+      "C Sharp/Basic Structure",
+      "C Sharp/Variables and Operators",
+      "C Sharp/C Sharp.md",
+      "C Sharp/Array, String and List",
+      "C Sharp/OOP - Part 1",
+      "C Sharp/OOP - Part 2",
+      "C Sharp/Enum and Struct"
+    ],
+    "C Sharp/Array, String and List": [
+      "C Sharp/Array, String and List/Array, String and List.md",
+      "C Sharp/Array, String and List/Array.md",
+      "C Sharp/Array, String and List/String.md",
+      "C Sharp/Array, String and List/List.md",
+      "C Sharp/Array, String and List/Untitled.md"
+    ],
+    "WPF/XAML/The Syntax of XAML": [
+      "WPF/XAML/The Syntax of XAML/xName Attribute.md",
+      "WPF/XAML/The Syntax of XAML/Setting Properties That Aren’t Simple Types.md",
+      "WPF/XAML/The Syntax of XAML/The Syntax of XAML.md"
+    ],
+    "WPF/XAML": [
+      "WPF/XAML/Renaming a XAML File.md",
+      "WPF/XAML/XAML - Definition.md",
+      "WPF/XAML/The Syntax of XAML",
+      "WPF/XAML/XAML.md"
+    ],
+    "Glossary/Koh Young Glossary": [
+      "Glossary/Koh Young Glossary/AOI.md",
+      "Glossary/Koh Young Glossary/API.md",
+      "Glossary/Koh Young Glossary/Koh Young Glossary.md",
+      "Glossary/Koh Young Glossary/SPI.md",
+      "Glossary/Koh Young Glossary/Software Architecture.md"
+    ],
+    "WPF": [
+      "WPF/Features of WPF.md",
+      "WPF/WPF - Definition.md",
+      "WPF/Alignment, Margins, and Padding Overview.md",
+      "WPF/WPF.md",
+      "WPF/XAML",
+      "WPF/Controls",
+      "WPF/Control.md"
+    ],
+    "Glossary": [
+      "Glossary/C Sharp Glossary",
+      "Glossary/dot Net Glossary",
+      "Glossary/Glossary.md",
+      "Glossary/Koh Young Glossary",
+      "Glossary/MSA Glossary",
+      "Glossary/Neural Network Glossary",
+      "Glossary/System Architect Glossary",
+      "Glossary/Miscellaneous Glossary"
+    ],
+    "Glossary/Repeatability Tool Glossary": [
+      "Glossary/Repeatability Tool Glossary/OSAT Job",
+      "Glossary/Repeatability Tool Glossary/Normal Job",
+      "Glossary/Repeatability Tool Glossary/Repeatability Tool Glossary.md",
+      "Glossary/Repeatability Tool Glossary/SPI"
+    ],
+    "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job": [
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/Coplanarity - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/FOV - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/Fiducial - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/JobFileInfo - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/Land - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/Normal Job.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/PCBInfo - DataBase.md",
+      "Glossary/Repeatability Tool Glossary/SPI/SPI JOB File/Normal Job/Shape - DataBase.md"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": false,
+  "autoHideDelay": 2000,
+  "dragDelay": 200
+}

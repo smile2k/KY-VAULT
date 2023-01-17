@@ -1,0 +1,1 @@
+X Postion of Array(The reference position is the bottom left corner of the board)

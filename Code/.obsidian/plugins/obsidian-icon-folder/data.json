@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasC",
+      "FabUniregistry",
+      "FasMusic",
+      "FasPersonSkating",
+      "FarC4"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraPadding": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "PERSONAL STYLE": "FabUniregistry",
+  "PERSONAL STYLE/CD - Vinyl Player": "FasMusic",
+  "PERSONAL STYLE/Keyboard": "RiKeyboardFill",
+  "PERSONAL STYLE/SkateBoard": "FasPersonSkating",
+  "PERSONAL STYLE/Shoes": "FasShoePrints",
+  "PERSONAL STYLE/Shirt": "FasShirt",
+  "PERSONAL STYLE/Piano": "FarKeyboard",
+  "PERSONAL STYLE/Pants": "FasHandPointDown",
+  "PERSONAL STYLE/Podcasts": "FasPodcast",
+  "PERSONAL STYLE/Camera": "FasCamera"
+}

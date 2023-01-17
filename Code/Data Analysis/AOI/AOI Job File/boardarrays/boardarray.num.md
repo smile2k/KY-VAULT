@@ -1,0 +1,1 @@
+Index of Array ( 1 ~ N )

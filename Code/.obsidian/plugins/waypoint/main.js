@@ -52,20 +52,12 @@ __export(exports, {
   default: () => Waypoint
 });
 var import_obsidian = __toModule(require("obsidian"));
-var FolderNoteType;
-(function(FolderNoteType2) {
-  FolderNoteType2["InsideFolder"] = "INSIDE_FOLDER";
-  FolderNoteType2["OutsideFolder"] = "OUTSIDE_FOLDER";
-})(FolderNoteType || (FolderNoteType = {}));
 var DEFAULT_SETTINGS = {
   waypointFlag: "%% Waypoint %%",
   stopScanAtFolderNotes: false,
   showFolderNotes: false,
-  showNonMarkdownFiles: false,
   debugLogging: false,
-  useWikiLinks: true,
-  showEnclosingNote: false,
-  folderNoteType: FolderNoteType.InsideFolder
+  useWikiLinks: true
 };
 var _Waypoint = class extends import_obsidian.Plugin {
   constructor() {
@@ -78,10 +70,10 @@ var _Waypoint = class extends import_obsidian.Plugin {
       const lines = text.split("\n");
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].trim() === this.settings.waypointFlag) {
-          if (this.isFolderNote(file)) {
+          if (file.basename == file.parent.name) {
             this.log("Found waypoint flag in folder note!");
             yield this.updateWaypoint(file);
-            yield this.updateParentWaypoint(file.parent, this.settings.folderNoteType === FolderNoteType.OutsideFolder);
+            yield this.updateParentWaypoint(file.parent, false);
             return;
           } else if (file.parent.isRoot()) {
             this.log("Found waypoint flag in root folder.");
@@ -89,7 +81,7 @@ var _Waypoint = class extends import_obsidian.Plugin {
             return;
           } else {
             this.log("Found waypoint flag in invalid note.");
-            this.printWaypointError(file, `%% Error: Cannot create a waypoint in a note that's not the folder note. For more information, check the instructions [here](https://github.com/IdreesInc/Waypoint) %%`);
+            this.printWaypointError(file, `%% Error: Cannot create a waypoint in a note not named after the folder ("${file.basename}" is not the same as "${file.parent.name}"). For more information, check the instructions [here](https://github.com/IdreesInc/Waypoint) %%`);
             return;
           }
         }
@@ -145,23 +137,6 @@ var _Waypoint = class extends import_obsidian.Plugin {
   }
   onunload() {
   }
-  isFolderNote(file) {
-    if (this.settings.folderNoteType === FolderNoteType.InsideFolder) {
-      return file.basename == file.parent.name;
-    } else if (this.settings.folderNoteType === FolderNoteType.OutsideFolder) {
-      if (file.parent) {
-        return this.app.vault.getAbstractFileByPath(this.getCleanParentPath(file) + file.basename) instanceof import_obsidian.TFolder;
-      }
-      return false;
-    }
-  }
-  getCleanParentPath(node) {
-    if (node.parent instanceof import_obsidian.TFolder && node.parent.isRoot()) {
-      return "";
-    } else {
-      return node.parent.path + "/";
-    }
-  }
   printWaypointError(file, error) {
     return __async(this, null, function* () {
       this.log("Creating waypoint error in " + file.path);
@@ -185,15 +160,7 @@ var _Waypoint = class extends import_obsidian.Plugin {
   updateWaypoint(file) {
     return __async(this, null, function* () {
       this.log("Updating waypoint in " + file.path);
-      let fileTree;
-      if (this.settings.folderNoteType === FolderNoteType.InsideFolder) {
-        fileTree = yield this.getFileTreeRepresentation(file.parent, file.parent, 0, true);
-      } else if (this.settings.folderNoteType === FolderNoteType.OutsideFolder) {
-        const folder = this.app.vault.getAbstractFileByPath(this.getCleanParentPath(file) + file.basename);
-        if (folder instanceof import_obsidian.TFolder) {
-          fileTree = yield this.getFileTreeRepresentation(file.parent, folder, 0, true);
-        }
-      }
+      const fileTree = yield this.getFileTreeRepresentation(file.parent, 0, true);
       const waypoint = `${_Waypoint.BEGIN_WAYPOINT}
 ${fileTree}
 
@@ -220,51 +187,34 @@ ${_Waypoint.END_WAYPOINT}`;
       yield this.app.vault.modify(file, lines.join("\n"));
     });
   }
-  getFileTreeRepresentation(rootNode, node, indentLevel, topLevel = false) {
+  getFileTreeRepresentation(node, indentLevel, topLevel = false) {
     return __async(this, null, function* () {
       const bullet = "	".repeat(indentLevel) + "-";
       if (node instanceof import_obsidian.TFile) {
-        console.log(node);
-        if (node.extension == "md") {
+        if (node.path.endsWith(".md")) {
           if (this.settings.useWikiLinks) {
             return `${bullet} [[${node.basename}]]`;
           } else {
-            return `${bullet} [${node.basename}](${this.getEncodedUri(rootNode, node)})`;
-          }
-        } else if (this.settings.showNonMarkdownFiles) {
-          if (this.settings.useWikiLinks) {
-            return `${bullet} [[${node.name}]]`;
-          } else {
-            return `${bullet} [${node.name}](${this.getEncodedUri(rootNode, node)})`;
+            return `${bullet} [${node.basename}](../${encodeURI(node.path)})`;
           }
         }
         return null;
       } else if (node instanceof import_obsidian.TFolder) {
-        let text = "";
-        if (!topLevel || this.settings.showEnclosingNote) {
-          text = `${bullet} **${node.name}**`;
-          let folderNote;
-          if (this.settings.folderNoteType === FolderNoteType.InsideFolder) {
-            folderNote = this.app.vault.getAbstractFileByPath(node.path + "/" + node.name + ".md");
-          } else if (this.settings.folderNoteType === FolderNoteType.OutsideFolder) {
-            if (node.parent) {
-              folderNote = this.app.vault.getAbstractFileByPath(node.parent.path + "/" + node.name + ".md");
-            }
+        let text = `${bullet} **${node.name}**`;
+        const folderNote = this.app.vault.getAbstractFileByPath(node.path + "/" + node.name + ".md");
+        if (folderNote instanceof import_obsidian.TFile) {
+          if (this.settings.useWikiLinks) {
+            text = `${bullet} **[[${folderNote.basename}]]**`;
+          } else {
+            text = `${bullet} **[${folderNote.basename}](../${encodeURI(folderNote.path)})**`;
           }
-          if (folderNote instanceof import_obsidian.TFile) {
-            if (this.settings.useWikiLinks) {
-              text = `${bullet} **[[${folderNote.basename}]]**`;
+          if (!topLevel) {
+            if (this.settings.stopScanAtFolderNotes) {
+              return text;
             } else {
-              text = `${bullet} **[${folderNote.basename}](${this.getEncodedUri(rootNode, folderNote)})**`;
-            }
-            if (!topLevel) {
-              if (this.settings.stopScanAtFolderNotes) {
+              const content = yield this.app.vault.cachedRead(folderNote);
+              if (content.includes(_Waypoint.BEGIN_WAYPOINT) || content.includes(this.settings.waypointFlag)) {
                 return text;
-              } else {
-                const content = yield this.app.vault.cachedRead(folderNote);
-                if (content.includes(_Waypoint.BEGIN_WAYPOINT) || content.includes(this.settings.waypointFlag)) {
-                  return text;
-                }
               }
             }
           }
@@ -273,23 +223,9 @@ ${_Waypoint.END_WAYPOINT}`;
           let children = node.children;
           children = children.sort((a, b) => {
             return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });
-          });
-          if (!this.settings.showFolderNotes) {
-            if (this.settings.folderNoteType === FolderNoteType.InsideFolder) {
-              children = children.filter((child) => this.settings.showFolderNotes || child.name !== node.name + ".md");
-            } else if (this.settings.folderNoteType === FolderNoteType.OutsideFolder) {
-              const folderNames = new Set();
-              for (const element of children) {
-                if (element instanceof import_obsidian.TFolder) {
-                  folderNames.add(element.name + ".md");
-                }
-              }
-              children = children.filter((child) => child instanceof import_obsidian.TFolder || !folderNames.has(child.name));
-            }
-          }
+          }).filter((child) => this.settings.showFolderNotes || child.name !== node.name + ".md");
           if (children.length > 0) {
-            const nextIndentLevel = topLevel && !this.settings.showEnclosingNote ? indentLevel : indentLevel + 1;
-            text += (text === "" ? "" : "\n") + (yield Promise.all(children.map((child) => this.getFileTreeRepresentation(rootNode, child, nextIndentLevel)))).filter(Boolean).join("\n");
+            text += "\n" + (yield Promise.all(children.map((child) => this.getFileTreeRepresentation(child, indentLevel + 1)))).filter(Boolean).join("\n");
           }
           return text;
         } else {
@@ -299,25 +235,12 @@ ${_Waypoint.END_WAYPOINT}`;
       return null;
     });
   }
-  getEncodedUri(rootNode, node) {
-    if (rootNode.isRoot()) {
-      return `./${encodeURI(node.path)}`;
-    }
-    return `./${encodeURI(node.path.substring(rootNode.path.length + 1))}`;
-  }
   locateParentWaypoint(node, includeCurrentNode) {
     return __async(this, null, function* () {
       this.log("Locating parent waypoint of " + node.name);
       let folder = includeCurrentNode ? node : node.parent;
       while (folder) {
-        let folderNote;
-        if (this.settings.folderNoteType === FolderNoteType.InsideFolder) {
-          folderNote = this.app.vault.getAbstractFileByPath(folder.path + "/" + folder.name + ".md");
-        } else if (this.settings.folderNoteType === FolderNoteType.OutsideFolder) {
-          if (folder.parent) {
-            folderNote = this.app.vault.getAbstractFileByPath(this.getCleanParentPath(folder) + folder.name + ".md");
-          }
-        }
+        const folderNote = this.app.vault.getAbstractFileByPath(folder.path + "/" + folder.name + ".md");
         if (folderNote instanceof import_obsidian.TFile) {
           this.log("Found folder note: " + folderNote.path);
           const text = yield this.app.vault.cachedRead(folderNote);
@@ -368,20 +291,8 @@ var WaypointSettingsTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Waypoint Settings" });
-    new import_obsidian.Setting(this.containerEl).setName("Folder Note Style").setDesc("Select the style of folder note used.").addDropdown((dropdown) => dropdown.addOption(FolderNoteType.InsideFolder, "Folder Name Inside").addOption(FolderNoteType.OutsideFolder, "Folder Name Outside").setValue(this.plugin.settings.folderNoteType).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.folderNoteType = value;
-      yield this.plugin.saveSettings();
-    })));
     new import_obsidian.Setting(containerEl).setName("Show Folder Notes").setDesc("If enabled, folder notes will be listed alongside other notes in the generated waypoints.").addToggle((toggle) => toggle.setValue(this.plugin.settings.showFolderNotes).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.showFolderNotes = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian.Setting(containerEl).setName("Show Non-Markdown Files").setDesc("If enabled, non-Markdown files will be listed alongside other notes in the generated waypoints.").addToggle((toggle) => toggle.setValue(this.plugin.settings.showNonMarkdownFiles).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.showNonMarkdownFiles = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian.Setting(containerEl).setName("Show Enclosing Note").setDesc("If enabled, the name of the folder note containing the waypoint will be listed at the top of the generated waypoints.").addToggle((toggle) => toggle.setValue(this.plugin.settings.showEnclosingNote).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.showEnclosingNote = value;
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("Stop Scan at Folder Notes").setDesc("If enabled, the waypoint generator will stop scanning nested folders when it encounters a folder note. Otherwise, it will only stop if the folder note contains a waypoint.").addToggle((toggle) => toggle.setValue(this.plugin.settings.stopScanAtFolderNotes).onChange((value) => __async(this, null, function* () {
