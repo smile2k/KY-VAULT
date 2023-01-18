@@ -13,13 +13,418 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formula/(Sum Squared) divided by (Group Count).md",
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/TB_AOIDefectDetail.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ec316351e3c83d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/PCBGUID.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2b5b03ddd45534f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/ComponentGUID.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cff5beea35398b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/TB_AOIDefectDetail.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e54012c8c1242e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/InspType.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3f611b7c780176c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LeadName.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e3cf92665a5a901b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LeadID.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fa61c60549e612b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandName.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "056b744545008e13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandID.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0d8a20955d9a4413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/TB_AOIPCB.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2a466c8c0cc503fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/JobFileIDLocal.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d548e2910d8894a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/PCBResult.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3e9838d57ef9420b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/IDNO.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d37f25c76c896066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/PCBNAME.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ecd7432f01ab160e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/DATE.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5751df06d5ba9dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/STIME.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4b3238f0133b0b36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/ETIME.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "df5bbeeb23b6ca99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/JobFileName.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "59815c2ea5ee3529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/LogDB.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4f9956cce2322059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/BarCode.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5052591bcb63723f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/Lane.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0c4a14e0b966b430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI Result DB/PCB Index DB/PCBResult/TotalPADCnt.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f753f9e46ca8e042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/SPI/SPI.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "40e1b965db079e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/TB_AOIPCB.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9f8c303a0817a674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/Lot.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8b4e2a90a0d5a908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/StartDateTime.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0fdc935f1dec1872",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "851f87db2c6a9d06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/BarCode.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2582e718ed86f18b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/ALLBarCode.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a3de2b5972d05862",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/PCBTotalComp.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b0762b70182e678d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/PCBTotalInsp.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "61b659d439a2aa59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/ResultDBName.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "09697cabcdcdfef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/PCBComment.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7497d0ab29bc32ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Index DB/TB_AOIPCB/PCBModel.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "be21a393c12c620f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandName.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -85,7 +490,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formula/(Sum Squared) divided by (Group Count).md",
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandName.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +507,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formula/(Sum Squared) divided by (Group Count).md",
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandName.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +530,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formula/(Sum Squared) divided by (Group Count).md"
+                "file": "Data Analysis/AOI/AOI Result DB/AOI Detail DB/TB_AOIDefectDetail/LandName.md"
               }
             }
           }
@@ -146,17 +551,17 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9664f0a606891a51",
+  "active": "be21a393c12c620f",
   "lastOpenFiles": [
-    "Formula/Squared Standard Deviation.md",
-    "Formula/3Sigma.md",
-    "Formula/Cm.md",
-    "Formula/Variance.md",
-    "Formula/Sum.md",
-    "Formula/Average.md",
-    "Data Analysis/AOI/AOI Job File/footprints/footprints.md",
-    "Data Analysis/AOI/AOI Job File/pkgs/pkg.uid.md",
-    "Data Analysis/AOI/AOI Job File/pkgs/pkg.name.md",
-    "Data Analysis/AOI/AOI Job File/pkgs/pkgs.md"
+    "Data Analysis/SPI/SPI.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/PanelInfo/PanelInfo.md",
+    "Data Analysis/SPI/SPI JOB File/SPI JOB File.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/Shape/Shape.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/PCBInfo/PCBInfo.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/Land/Land.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/JobFileInfo/JobFileInfo.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/FOV/FOV.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/Fiducial/Fiducial.md",
+    "Data Analysis/SPI/SPI JOB File/Normal Job/Coplanarity/Coplanarity.md"
   ]
 }

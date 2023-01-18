@@ -1,14 +1,12 @@
-# Fiducial Overview
+# AOI Index DB Overview
  
 ```ccard
 type: folder_brief_live
 ```
  
-ID:
-X:
-Y:
 ---
 %% Begin Waypoint %%
-- **[[Fiducial]]**
+- **[[AOI Index DB]]**
+	- **[[TB_AOIPCB]]**
 
 %% End Waypoint %%

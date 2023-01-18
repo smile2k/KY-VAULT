@@ -1,0 +1,2 @@
+ Total inspected pad count
+ 

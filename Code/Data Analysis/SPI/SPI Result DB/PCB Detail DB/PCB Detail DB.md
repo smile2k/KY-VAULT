@@ -1,14 +1,11 @@
-# Fiducial Overview
+# PCB Detail DB Overview
  
 ```ccard
 type: folder_brief_live
 ```
  
-ID:
-X:
-Y:
 ---
 %% Begin Waypoint %%
-- **[[Fiducial]]**
+- **[[PCB Detail DB]]**
 
 %% End Waypoint %%

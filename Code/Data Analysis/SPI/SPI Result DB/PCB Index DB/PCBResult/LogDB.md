@@ -1,0 +1,1 @@
+Number of pad detail result DB

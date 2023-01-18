@@ -6,13 +6,22 @@ type: folder_brief_live
 
 
 %% Begin Waypoint %%
-- **[[Coplanarity]]**
-- **[[Fiducial]]**
-- **[[FOV]]**
-- **[[JobFileInfo]]**
-- **[[Land]]**
-- **[[PanelInfo]]**
-- **[[PCBInfo]]**
-- **[[Shape]]**
+- **[[Normal Job]]**
+	- **[[Coplanarity]]**
+	- **[[Fiducial]]**
+	- **[[FOV]]**
+		- [[Bottom]]
+		- [[FovNo]]
+		- [[Left]]
+		- [[Right]]
+		- [[Top]]
+		- [[x]]
+		- [[y]]
+	- **[[JobFileInfo]]**
+		- [[JobVersion]]
+	- **[[Land]]**
+	- **[[PanelInfo]]**
+	- **[[PCBInfo]]**
+	- **[[Shape]]**
 
 %% End Waypoint %%

@@ -8,58 +8,30 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Land\"",
+      "query": "path:\"Data Analysis/AOI\"",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 5395168
       }
     },
     {
-      "query": "path:\"Coplanarity\"",
+      "query": "path:\"Data Analysis/SPI\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"FOV\"",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:\"Fiducial \"",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:\"Shape\"",
-      "color": {
-        "a": 1,
-        "rgb": 5429216
-      }
-    },
-    {
-      "query": "path:\"OSAT Job\"",
-      "color": {
-        "a": 1,
-        "rgb": 11752160
+        "rgb": 7921746
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.325,
+  "lineSizeMultiplier": 0.865625,
+  "collapse-forces": false,
+  "centerStrength": 0.416666666666667,
+  "repelStrength": 11.4583333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224576,
-  "close": true
+  "scale": 0.5087618855792891,
+  "close": false
 }
