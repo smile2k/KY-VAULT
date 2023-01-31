@@ -8,5 +8,6 @@
   },
   "livePreview": false,
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": false,
+  "attachmentFolderPath": "Pictures"
 }

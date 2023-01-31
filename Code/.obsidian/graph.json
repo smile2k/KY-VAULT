@@ -20,6 +20,20 @@
         "a": 1,
         "rgb": 7921746
       }
+    },
+    {
+      "query": "path:\"C Sharp\"",
+      "color": {
+        "a": 1,
+        "rgb": 14731602
+      }
+    },
+    {
+      "query": "path:Formula",
+      "color": {
+        "a": 1,
+        "rgb": 14710098
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +46,6 @@
   "repelStrength": 11.4583333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5087618855792891,
+  "scale": 0.2588386562181796,
   "close": false
 }

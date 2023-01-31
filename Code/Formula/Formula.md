@@ -12,6 +12,7 @@ type: folder_brief_live
 	- [[Average]]
 	- [[Cm]]
 	- [[Formulas]]
+	- **[[Minitab 20 Support]]**
 	- [[Squared Standard Deviation]]
 	- [[Sum]]
 	- [[Variance]]
