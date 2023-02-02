@@ -10,5 +10,6 @@ type: folder_brief_live
 	- **[[Arrays, Strings and Lists]]**
 	- **[[Basic Structure of a Program]]**
 	- **[[Data Type in C Sharp]]**
+	- **[[Making our Program Interactive]]**
 
 %% End Waypoint %%

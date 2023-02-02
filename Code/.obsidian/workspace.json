@@ -8,138 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99c102b27417cd7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WPF/XML/XML.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1bad6670e520efe9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WPF/XML/File XML.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "43622db39aedcec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Basic Structure of a Program/Basic Structure of a Program.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "841baea6c9f40954",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/Data Type in C Sharp.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e9efd3f9aa7d4007",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/Initializing a Variable.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6cbb1a5361c18425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/The Assignment Sign.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b94f6e1e832c49cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/Data Type in C Sharp.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "33f2723210ca7fc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/Data Type in C Sharp.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "303813b4a9ad86b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Data Type in C Sharp/Type Casting In CSharp (Convert type data).md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7a1780b4a41154ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Arrays, Strings and Lists/Arrays, Strings and Lists.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "eecda0b9065c9360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Arrays, Strings and Lists/Arrays, Strings and Lists.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e5b69b6b758758e9",
             "type": "leaf",
             "state": {
@@ -150,9 +18,41 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4167b54ee11febe7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "622e10a215e0b323",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Sharp/Arrays, Strings and Lists/Arrays, Strings and Lists.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7f83247029d6c7af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Sharp/Making our Program Interactive/Making our Program Interactive.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -218,11 +118,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Sharp/Arrays, Strings and Lists/String.md",
+                "file": "C Sharp/Making our Program Interactive/Making our Program Interactive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -235,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C Sharp/Arrays, Strings and Lists/String.md",
+                "file": "C Sharp/Making our Program Interactive/Making our Program Interactive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C Sharp/Arrays, Strings and Lists/String.md"
+                "file": "C Sharp/Making our Program Interactive/Making our Program Interactive.md"
               }
             }
           }
@@ -276,20 +176,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "e5b69b6b758758e9",
+  "active": "7f83247029d6c7af",
   "lastOpenFiles": [
-    "C Sharp/Basic Structure of a Program/Basic Structure of a Program.md",
-    "Diagram/Sequence Diagram.md",
-    "Diagram/Diagram.md",
-    "Diagram/Delegate.md",
-    "C Sharp/Arrays, Strings and Lists/String.md",
     "C Sharp/Arrays, Strings and Lists/Arrays, Strings and Lists.md",
-    "C Sharp/Arrays, Strings and Lists/Array.md",
-    "C Sharp/Untitled.md",
+    "WPF/MVVM/MVVM.md",
+    "WPF/WPF.md",
+    "C Sharp/Arrays, Strings and Lists/String.md",
     "C Sharp/Data Type in C Sharp/Type Casting In CSharp (Convert type data).md",
-    "C Sharp/Data Type in C Sharp/Data Type in C Sharp.md"
+    "C Sharp/Basic Structure of a Program/Basic Structure of a Program.md",
+    "C Sharp/Data Type in C Sharp/Data Type in C Sharp.md",
+    "C Sharp/Making our Program Interactive/Making our Program Interactive.md",
+    "C Sharp/Arrays, Strings and Lists/Lists.md",
+    "C Sharp/Arrays, Strings and Lists/Array.md"
   ]
 }
